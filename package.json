@@ -1,0 +1,19 @@
+{
+    "name": "interview_project",
+    "version": "1.0.0",
+    "description": "Sort and manipulate data",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "interview"
+    ],
+    "author": "Jonathan Sequeira",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.34"
+    }
+}
