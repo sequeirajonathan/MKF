@@ -113,7 +113,6 @@ const groupedEvents = eventsObjectSorted.reduce((accArray, currentObject, index)
           ) {
             if(accArray[accArray.length - 1].event.length < accArray[accArray.length - 1].event[0].bestOf ){
               accArray[accArray.length - 1].event.push(eventsObjectSorted[i].event);
-              adjustedReducer = i;
             } else {
               break;
             }
